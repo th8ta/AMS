@@ -27,8 +27,6 @@ export async function mint(
 
   const allTags = [
     { name: "Content-Type", value: type },
-    { name: "Exchange", value: "Verto" },
-    { name: "Action", value: "marketplace/Create" },
     { name: "App-Name", value: "SmartWeaveContract" },
     { name: "App-Version", value: "0.3.0" },
     { name: "Contract-Src", value: source },
